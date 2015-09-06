@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="11.0(105)" ?>
+<?aid SnippetType="PreflightProfile"?>
+<Application DOMVersion="11.0">
+	<PreflightProfile Self="u5596" Name="Andy&apos;s CMYK 6 Color - Style Strict" Description="Andy Benedict&apos;s 6 Color (CMYK12) Style Strict Preflight Profile&#xd;&#xa;Checks for:&#xd;&#xa;Missing or Modified Links&#xd;&#xa;Correct Transparency Blend Space&#xd;&#xa;Invalid Color Modes&#xd;&#xa;Extra Spot Colors&#xd;&#xa;Registration Color Used&#xd;&#xa;Minimum Image Resolution&#xd;&#xa;Minimum Printable Stroke Weights&#xd;&#xa;Overset Text&#xd;&#xa;Missing Fonts or Glyphs&#xd;&#xa;Bleeds&#xd;&#xa;">
+		<PreflightRuleInstance Self="u5d5d" Name="ADBE_BlankPages" Id="ADBE_BlankPages" Description="$ID/kBlankPagesRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d5dRuleDataObjectnignore_master" Name="ignore_master" DataType="BooleanDataType" Id="ignore_master">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5dRuleDataObjectnignore_nonprinting" Name="ignore_nonprinting" DataType="BooleanDataType" Id="ignore_nonprinting">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d5e" Name="ADBE_BleedSlug" Id="ADBE_BleedSlug" Description="$ID/kBleedSlugRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_b" Name="bleed_b" DataType="RealDataType" Id="bleed_b">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_b_aux" Name="bleed_b_aux" DataType="RealDataType" Id="bleed_b_aux">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_comparison_type" Name="bleed_comparison_type" DataType="IntegerDataType" Id="bleed_comparison_type">
+				<Properties>
+					<DataValue type="long">3</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_enabled" Name="bleed_enabled" DataType="BooleanDataType" Id="bleed_enabled">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_l" Name="bleed_l" DataType="RealDataType" Id="bleed_l">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_l_aux" Name="bleed_l_aux" DataType="RealDataType" Id="bleed_l_aux">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_r" Name="bleed_r" DataType="RealDataType" Id="bleed_r">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_r_aux" Name="bleed_r_aux" DataType="RealDataType" Id="bleed_r_aux">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_t" Name="bleed_t" DataType="RealDataType" Id="bleed_t">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnbleed_t_aux" Name="bleed_t_aux" DataType="RealDataType" Id="bleed_t_aux">
+				<Properties>
+					<DataValue type="double">9</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_b" Name="slug_b" DataType="RealDataType" Id="slug_b">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_b_aux" Name="slug_b_aux" DataType="RealDataType" Id="slug_b_aux">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_comparison_type" Name="slug_comparison_type" DataType="IntegerDataType" Id="slug_comparison_type">
+				<Properties>
+					<DataValue type="long">3</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_enabled" Name="slug_enabled" DataType="BooleanDataType" Id="slug_enabled">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_l" Name="slug_l" DataType="RealDataType" Id="slug_l">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_l_aux" Name="slug_l_aux" DataType="RealDataType" Id="slug_l_aux">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_r" Name="slug_r" DataType="RealDataType" Id="slug_r">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_r_aux" Name="slug_r_aux" DataType="RealDataType" Id="slug_r_aux">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_t" Name="slug_t" DataType="RealDataType" Id="slug_t">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectnslug_t_aux" Name="slug_t_aux" DataType="RealDataType" Id="slug_t_aux">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5eRuleDataObjectntolerance" Name="tolerance" DataType="RealDataType" Id="tolerance">
+				<Properties>
+					<DataValue type="double">0.01</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d5f" Name="ADBE_BleedTrimHazard" Id="ADBE_BleedTrimHazard" Description="$ID/kBleedTrimHazardRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d5fRuleDataObjectnbinding_enabled" Name="binding_enabled" DataType="BooleanDataType" Id="binding_enabled">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5fRuleDataObjectnbinding_width" Name="binding_width" DataType="RealDataType" Id="binding_width">
+				<Properties>
+					<DataValue type="double">1</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5fRuleDataObjectnlive_b" Name="live_b" DataType="RealDataType" Id="live_b">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5fRuleDataObjectnlive_l" Name="live_l" DataType="RealDataType" Id="live_l">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5fRuleDataObjectnlive_r" Name="live_r" DataType="RealDataType" Id="live_r">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5fRuleDataObjectnlive_t" Name="live_t" DataType="RealDataType" Id="live_t">
+				<Properties>
+					<DataValue type="double">18</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d5fRuleDataObjectntolerance" Name="tolerance" DataType="RealDataType" Id="tolerance">
+				<Properties>
+					<DataValue type="double">0.01</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d60" Name="ADBE_CMYPlates" Id="ADBE_CMYPlates" Description="$ID/kCMYPlatesRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d61" Name="ADBE_Colorspace" Id="ADBE_Colorspace" Description="$ID/kColorspaceRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d61RuleDataObjectnno_cmyk" Name="no_cmyk" DataType="BooleanDataType" Id="no_cmyk">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d61RuleDataObjectnno_gray" Name="no_gray" DataType="BooleanDataType" Id="no_gray">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d61RuleDataObjectnno_lab" Name="no_lab" DataType="BooleanDataType" Id="no_lab">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d61RuleDataObjectnno_rgb" Name="no_rgb" DataType="BooleanDataType" Id="no_rgb">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d61RuleDataObjectnno_spot" Name="no_spot" DataType="BooleanDataType" Id="no_spot">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d62" Name="ADBE_ConditionIndicators" Id="ADBE_ConditionIndicators" Description="$ID/kConditionIndicatorsRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d63" Name="ADBE_CrossReferences" Id="ADBE_CrossReferences" Description="$ID/kCrossReferencesRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d63RuleDataObjectnxrefs_out_of_date" Name="xrefs_out_of_date" DataType="BooleanDataType" Id="xrefs_out_of_date">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d63RuleDataObjectnxrefs_unresolved" Name="xrefs_unresolved" DataType="BooleanDataType" Id="xrefs_unresolved">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d64" Name="ADBE_FontUsage" Id="ADBE_FontUsage" Description="$ID/kFontUsageRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d64RuleDataObjectnno_ATC" Name="no_ATC" DataType="BooleanDataType" Id="no_ATC">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_Bitmap" Name="no_Bitmap" DataType="BooleanDataType" Id="no_Bitmap">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_CID" Name="no_CID" DataType="BooleanDataType" Id="no_CID">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_MultipleMaster" Name="no_MultipleMaster" DataType="BooleanDataType" Id="no_MultipleMaster">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_OpenTypeCFF" Name="no_OpenTypeCFF" DataType="BooleanDataType" Id="no_OpenTypeCFF">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_OpenTypeCID" Name="no_OpenTypeCID" DataType="BooleanDataType" Id="no_OpenTypeCID">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_OpenTypeTT" Name="no_OpenTypeTT" DataType="BooleanDataType" Id="no_OpenTypeTT">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_TrueType" Name="no_TrueType" DataType="BooleanDataType" Id="no_TrueType">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_Type1" Name="no_Type1" DataType="BooleanDataType" Id="no_Type1">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d64RuleDataObjectnno_protected" Name="no_protected" DataType="BooleanDataType" Id="no_protected">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d65" Name="ADBE_HiddenPageItem" Id="ADBE_HiddenPageItem" Description="$ID/kHiddenPageItemRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d66" Name="ADBE_ImageColorManagement" Id="ADBE_ImageColorManagement" Description="$ID/kImageColorManagementRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d66RuleDataObjectnno_cmyk_profiles" Name="no_cmyk_profiles" DataType="BooleanDataType" Id="no_cmyk_profiles">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d66RuleDataObjectnno_image_overrides" Name="no_image_overrides" DataType="BooleanDataType" Id="no_image_overrides">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d66RuleDataObjectnoverrides_exclude_uncal" Name="overrides_exclude_uncal" DataType="BooleanDataType" Id="overrides_exclude_uncal">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d67" Name="ADBE_ImageResolution" Id="ADBE_ImageResolution" Description="$ID/kImageResolutionRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d67RuleDataObjectnbw_max_enabled" Name="bw_max_enabled" DataType="BooleanDataType" Id="bw_max_enabled">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectnbw_max_res" Name="bw_max_res" DataType="RealDataType" Id="bw_max_res">
+				<Properties>
+					<DataValue type="double">2400</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectnbw_min_enabled" Name="bw_min_enabled" DataType="BooleanDataType" Id="bw_min_enabled">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectnbw_min_res" Name="bw_min_res" DataType="RealDataType" Id="bw_min_res">
+				<Properties>
+					<DataValue type="double">600</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectncolor_max_enabled" Name="color_max_enabled" DataType="BooleanDataType" Id="color_max_enabled">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectncolor_max_res" Name="color_max_res" DataType="RealDataType" Id="color_max_res">
+				<Properties>
+					<DataValue type="double">1200</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectncolor_min_enabled" Name="color_min_enabled" DataType="BooleanDataType" Id="color_min_enabled">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectncolor_min_res" Name="color_min_res" DataType="RealDataType" Id="color_min_res">
+				<Properties>
+					<DataValue type="double">150</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectngray_max_enabled" Name="gray_max_enabled" DataType="BooleanDataType" Id="gray_max_enabled">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectngray_max_res" Name="gray_max_res" DataType="RealDataType" Id="gray_max_res">
+				<Properties>
+					<DataValue type="double">1200</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectngray_min_enabled" Name="gray_min_enabled" DataType="BooleanDataType" Id="gray_min_enabled">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectngray_min_res" Name="gray_min_res" DataType="RealDataType" Id="gray_min_res">
+				<Properties>
+					<DataValue type="double">150</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d67RuleDataObjectntolerance" Name="tolerance" DataType="RealDataType" Id="tolerance">
+				<Properties>
+					<DataValue type="double">0.5</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d68" Name="ADBE_InaccessibleUrlLinks" Id="ADBE_InaccessibleUrlLinks" Description="$ID/kInaccessibleUrlLinksRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d69" Name="ADBE_InteractiveContent" Id="ADBE_InteractiveContent" Description="$ID/kInteractiveContentRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d69RuleDataObjectnno_AnimatedObject" Name="no_AnimatedObject" DataType="BooleanDataType" Id="no_AnimatedObject">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d69RuleDataObjectnno_Audio" Name="no_Audio" DataType="BooleanDataType" Id="no_Audio">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d69RuleDataObjectnno_Button" Name="no_Button" DataType="BooleanDataType" Id="no_Button">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d69RuleDataObjectnno_FlashIncompatible" Name="no_FlashIncompatible" DataType="BooleanDataType" Id="no_FlashIncompatible">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d69RuleDataObjectnno_FormField" Name="no_FormField" DataType="BooleanDataType" Id="no_FormField">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d69RuleDataObjectnno_MSO" Name="no_MSO" DataType="BooleanDataType" Id="no_MSO">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d69RuleDataObjectnno_Video" Name="no_Video" DataType="BooleanDataType" Id="no_Video">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d6a" Name="ADBE_LayerVisibility" Id="ADBE_LayerVisibility" Description="$ID/kLayerVisibilityRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d6b" Name="ADBE_MissingFonts" Id="ADBE_MissingFonts" Description="$ID/kMissingFontsRuleDescription" Flag="ReturnAsError" />
+		<PreflightRuleInstance Self="u5d6c" Name="ADBE_MissingGlyph" Id="ADBE_MissingGlyph" Description="$ID/kMissingGlyphRuleDescription" Flag="ReturnAsError" />
+		<PreflightRuleInstance Self="u5d6d" Name="ADBE_MissingModifiedGraphics" Id="ADBE_MissingModifiedGraphics" Description="$ID/kMissingModifiedGraphicsRuleDescription" Flag="ReturnAsError" />
+		<PreflightRuleInstance Self="u5d6e" Name="ADBE_MultiPageSizes" Id="ADBE_MultiPageSizes" Description="$ID/kMultiPageSizesRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d6f" Name="ADBE_OPI" Id="ADBE_OPI" Description="$ID/kOPIRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d70" Name="ADBE_Overprint" Id="ADBE_Overprint" Description="$ID/kOverprintRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d71" Name="ADBE_OversetText" Id="ADBE_OversetText" Description="$ID/kOversetTextRuleDescription" Flag="ReturnAsError" />
+		<PreflightRuleInstance Self="u5d72" Name="ADBE_PageCount" Id="ADBE_PageCount" Description="$ID/kPageCountRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d72RuleDataObjectncomparison_type" Name="comparison_type" DataType="IntegerDataType" Id="comparison_type">
+				<Properties>
+					<DataValue type="long">2</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d72RuleDataObjectncomparison_value" Name="comparison_value" DataType="IntegerDataType" Id="comparison_value">
+				<Properties>
+					<DataValue type="long">1</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d72RuleDataObjectncomparison_value_aux" Name="comparison_value_aux" DataType="IntegerDataType" Id="comparison_value_aux">
+				<Properties>
+					<DataValue type="long">1</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d73" Name="ADBE_PageSizeOrientation" Id="ADBE_PageSizeOrientation" Description="$ID/kPageSizeOrientationRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d73RuleDataObjectnheight" Name="height" DataType="RealDataType" Id="height">
+				<Properties>
+					<DataValue type="double">792</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d73RuleDataObjectnignore_orientation" Name="ignore_orientation" DataType="BooleanDataType" Id="ignore_orientation">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d73RuleDataObjectntolerance" Name="tolerance" DataType="RealDataType" Id="tolerance">
+				<Properties>
+					<DataValue type="double">0.01</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d73RuleDataObjectnwidth" Name="width" DataType="RealDataType" Id="width">
+				<Properties>
+					<DataValue type="double">612</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d74" Name="ADBE_Registration" Id="ADBE_Registration" Description="$ID/kRegistrationRuleDescription" Flag="ReturnAsError" />
+		<PreflightRuleInstance Self="u5d75" Name="ADBE_ScaledGraphics" Id="ADBE_ScaledGraphics" Description="$ID/kScaledGraphicsRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d75RuleDataObjectnmax_scale" Name="max_scale" DataType="RealDataType" Id="max_scale">
+				<Properties>
+					<DataValue type="double">100.5</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d76" Name="ADBE_ScaledType" Id="ADBE_ScaledType" Description="$ID/kScaledTypeRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d76RuleDataObjectnignore_justification" Name="ignore_justification" DataType="BooleanDataType" Id="ignore_justification">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d76RuleDataObjectnmax_scale" Name="max_scale" DataType="RealDataType" Id="max_scale">
+				<Properties>
+					<DataValue type="double">100.5</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d77" Name="ADBE_SmallText" Id="ADBE_SmallText" Description="$ID/kSmallTextRuleDescription" Flag="RuleIsDisabled">
+			<RuleDataObject Self="u5d77RuleDataObjectnminSize" Name="minSize" DataType="RealDataType" Id="minSize">
+				<Properties>
+					<DataValue type="double">4</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d77RuleDataObjectnminSize_trap_safe_only" Name="minSize_trap_safe_only" DataType="BooleanDataType" Id="minSize_trap_safe_only">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d78" Name="ADBE_SpanColumns" Id="ADBE_SpanColumns" Description="$ID/kSpanColumnsRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d79" Name="ADBE_SpellCheck" Id="ADBE_SpellCheck" Description="$ID/kSpellCheckRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d7a" Name="ADBE_SpotColorSetup" Id="ADBE_SpotColorSetup" Description="$ID/kSpotColorSetupRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d7aRuleDataObjectnlab_spots" Name="lab_spots" DataType="BooleanDataType" Id="lab_spots">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7aRuleDataObjectnlab_spots_enabled" Name="lab_spots_enabled" DataType="BooleanDataType" Id="lab_spots_enabled">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7aRuleDataObjectnmax_spots" Name="max_spots" DataType="IntegerDataType" Id="max_spots">
+				<Properties>
+					<DataValue type="long">2</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7aRuleDataObjectnmax_spots_enabled" Name="max_spots_enabled" DataType="BooleanDataType" Id="max_spots_enabled">
+				<Properties>
+					<DataValue type="boolean">true</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d7b" Name="ADBE_StrokeRequirements" Id="ADBE_StrokeRequirements" Description="$ID/kStrokeRequirementsRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d7bRuleDataObjectnmin_width" Name="min_width" DataType="RealDataType" Id="min_width">
+				<Properties>
+					<DataValue type="double">0.125</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7bRuleDataObjectnmin_width_trap_safe_only" Name="min_width_trap_safe_only" DataType="BooleanDataType" Id="min_width_trap_safe_only">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d7c" Name="ADBE_TextOverrides" Id="ADBE_TextOverrides" Description="$ID/kTextOverridesRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d7cRuleDataObjectnignore_color_overrides" Name="ignore_color_overrides" DataType="BooleanDataType" Id="ignore_color_overrides">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7cRuleDataObjectnignore_font_overrides" Name="ignore_font_overrides" DataType="BooleanDataType" Id="ignore_font_overrides">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7cRuleDataObjectnignore_kerning_tracking_overrides" Name="ignore_kerning_tracking_overrides" DataType="BooleanDataType" Id="ignore_kerning_tracking_overrides">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+			<RuleDataObject Self="u5d7cRuleDataObjectnignore_language_overrides" Name="ignore_language_overrides" DataType="BooleanDataType" Id="ignore_language_overrides">
+				<Properties>
+					<DataValue type="boolean">false</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d7d" Name="ADBE_TrackedChange" Id="ADBE_TrackedChange" Description="$ID/kTrackedChangeRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d7e" Name="ADBE_TransparencyBlending" Id="ADBE_TransparencyBlending" Description="$ID/kTransparencyBlendingRuleDescription" Flag="ReturnAsError">
+			<RuleDataObject Self="u5d7eRuleDataObjectnspace" Name="space" DataType="IntegerDataType" Id="space">
+				<Properties>
+					<DataValue type="long">3</DataValue>
+				</Properties>
+			</RuleDataObject>
+		</PreflightRuleInstance>
+		<PreflightRuleInstance Self="u5d7f" Name="ADBE_TransparencyUsage" Id="ADBE_TransparencyUsage" Description="$ID/kTransparencyUsageRuleDescription" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d80" Name="ADBE_UnresolvedCaption" Id="ADBE_UnresolvedCaption" Description="$ID/kUnresolvedCaptionVariableDesc" Flag="RuleIsDisabled" />
+		<PreflightRuleInstance Self="u5d81" Name="ADBE_WhiteOverprint" Id="ADBE_WhiteOverprint" Description="$ID/kWhiteOverprintRuleDescription" Flag="ReturnAsError" />
+	</PreflightProfile>
+</Application>
