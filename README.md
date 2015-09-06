@@ -11,9 +11,12 @@ The standard profiles do not perform a check for style overrides. If you adhere 
 
 ### Turning on Preflight
 If the preflight panel is not visible:
+
 Select *Window > Output > Preflight* from the menu
+
   -or-
-Press *<Command> + <Option> + <Shift> + F* on a Mac or *<Control> + <Alt> + <Shift> + F* on a PC
+  
+Press *Command + Option + Shift + F* on a Mac or *Control + Alt + Shift + F* on a PC
 
 Check the "On" Checkbox and Select a preflight profile from the list at the top right of the panel to get started.
 
